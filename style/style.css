@@ -1,11 +1,7 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     margin: 0;
     background-color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: Selawik, sans-serif;
 }
 
 .background {
@@ -73,16 +69,47 @@ body {
 
 #about_me_text span {
     width:70%;
+    line-height: 40px;
+}
+
+#about_me_text span button {
+    
+}
+
+#about_me_text span h1{
+    color: #D72638;
+    text-align: center;
 }
 
 #about_me_text img {
     border-radius: 20px;
-    width: 16%;
+    width: 18%;
+    height: 90%;
 }
 
 @media screen and (max-width: 800px) {
     #about_me_text {
         flex-direction: column;
+        font-size: 2vh;
+    }
+    
+    #about_me_text img {
+        border-radius: 20px;
+        width: 25%;
+        height: 35%;
+    }
+
+    #about_me_text span {
+        width:70%;
+        line-height: 20px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    #about_me_text span h1{
+        color: #D72638;
+        text-align: center;
+        font-size: 3vh;
     }
 }
 
@@ -179,15 +206,24 @@ body {
     border-radius: 7px;
 }
 
+.menu {
+    font-size:0;
+}
+
 .menu_button{
     width:20%;
     padding:0.7%;
     margin-left: 0px;
     border: none;
     font-family: "Roboto" ,sans-serif;
-    font-weight: bold;
     font-size:2vh;
-    color: #8EAECC;
+    color: #305cf8;
+    transition: 0.2s;
+}
+
+.menu_button:hover{
+    background-color: #420039;
+    color: white;
 }
 
 .menu_button:nth-child(1){
