@@ -70,15 +70,38 @@ body {
 #about_me_text span {
     width:70%;
     line-height: 40px;
+    text-align: center;
+}
+
+#about_me_text span p{
+
+    text-align: left;
 }
 
 #about_me_text span button {
-    
+    text-align: center;
+    border: none;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 3%;
+    padding: 1% 10%;
+    border-radius: 17px;
+    font-size: 2vh;
+    font-weight: bold;
+    color: #305cf8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#about_me_text span button:hover {
+    background-color: #D72638;
+    color: white;
 }
 
 #about_me_text span h1{
-    color: #D72638;
+    color: #FF570A;
     text-align: center;
+    text-decoration: underline;
 }
 
 #about_me_text img {
@@ -118,12 +141,38 @@ body {
     background-color: #222222;
 }
 
+.background:nth-child(4){
+    text-align: center;
+    background-color: #2A1B4A;
+}
+
 #skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width:100%;
     height: 80vh;
+}
+
+#skills_holder {
+    
+}
+
+.skill {
+    background: rgb(240, 219, 79);
+    color: rgb(18, 18, 18);
+    width: 12rem;
+    height: 8rem;
+    padding: 1rem;
+    border-bottom-style: none;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out 0s;
+    text-decoration: none;
+    user-select: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
 }
 
 
@@ -160,6 +209,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .background_header:before, .background_header:after {
     content: '';
@@ -224,6 +275,7 @@ body {
 .menu_button:hover{
     background-color: #420039;
     color: white;
+    cursor: pointer;
 }
 
 .menu_button:nth-child(1){
