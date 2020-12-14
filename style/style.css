@@ -76,7 +76,7 @@ body {
 
 #about_me_text span p{
     text-align: left;
-    width: 90%;
+    width: 95%;
 }
 
 #about_me_text span button {
@@ -107,8 +107,8 @@ body {
 
 #about_me_text img {
     border-radius: 20px;
-    width: 18%;
-    height: 90%;
+    width: 20%;
+    height: 95%;
 }
 
 @media screen and (max-width: 800px) {
@@ -335,7 +335,7 @@ body {
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #1E1C2D;
+    background: #4B2840;
   }
   
   ::-webkit-scrollbar-thumb:hover {
