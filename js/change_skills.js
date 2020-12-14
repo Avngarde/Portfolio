@@ -46,11 +46,11 @@ function change_skill(section) {
                     <img id="nest_image" src="images/nestjs.svg">
                     <p>NestJS</p>
                 </div>
-                <div class="skill" style="background-color: rgb(36, 67, 97)">
+                <div class="skill" style="background-color: rgb(36, 67, 97); color: #fff;">
                     <img id="python_image" src="images/python.svg">
                     <p>Python</p>
                 </div>
-                <div class="skill" style="background-color: rgb(9, 62, 44)">
+                <div class="skill" style="background-color: rgb(9, 62, 44); color: #fff;">
                     <img id="django_image" src="images/django.png">
                     <p>Django</p>
                 </div>
