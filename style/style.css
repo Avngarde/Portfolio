@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: white;
-    font-family: Selawik, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .background {
@@ -86,12 +86,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 3%;
     padding: 1% 10%;
-    border-radius: 17px;
+    border-radius: 28px;
     font-size: 2vh;
     font-weight: bold;
     color: #305cf8;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 #about_me_text span button:hover {
@@ -108,33 +109,7 @@ body {
 #about_me_text img {
     border-radius: 20px;
     width: 20%;
-    height: 95%;
-}
-
-@media screen and (max-width: 800px) {
-    #about_me_text {
-        flex-direction: column;
-        font-size: 2vh;
-    }
-    
-    #about_me_text img {
-        border-radius: 20px;
-        width: 25%;
-        height: 35%;
-    }
-
-    #about_me_text span {
-        width:70%;
-        line-height: 20px;
-        margin-top: 10%;
-        margin-bottom: 5%;
-    }
-
-    #about_me_text span h1{
-        color: #D72638;
-        text-align: center;
-        font-size: 3vh;
-    }
+    height: 100%;
 }
 
 .background:nth-child(3){
@@ -393,3 +368,134 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+
+  @media screen and (max-width: 800px) {
+    #about_me_text {
+        flex-direction: column;
+        font-size: 2vh;
+    }
+    
+    #about_me_text img {
+        border-radius: 20px;
+        width: 25%;
+        height: 35%;
+    }
+
+    #about_me_text span {
+        width:70%;
+        line-height: 20px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    #about_me_text span h1{
+        color: #D72638;
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    .background:nth-child(2) {
+        height: 120vh;
+    }
+
+    #about_me_text span p {
+        margin-top:90%;
+    }
+
+    #about_me_text img {
+        width:30%;
+        height: 50%;
+    }
+
+    #about_me_text span button {
+        padding:3% 19%;
+    }
+
+    #first_background img {
+        width:35%;
+    }
+
+    .menu_button {
+        padding: 2%;
+        width: 30%;
+    }
+
+    #skills_holder{
+        width:100%;
+    }
+
+    #aboutme h1 {
+        font-size: 4vh;
+    }
+
+    #react_image{
+        width:40%;
+        filter: brightness(0%);
+    }
+    
+    #tailwind_image{
+        width:60%;
+        filter: brightness(0%);
+    }
+
+    #javascript_image {
+        width:35%;
+        filter: brightness(1000%);
+    }
+    
+    #typescript_image {
+        width:35%;
+    }
+    
+    #html_image{
+        width:35%;
+    }
+    
+    #css_image{
+        width:24%;
+    }
+    
+    #rust_image {
+        width:35%;
+    }
+    
+    #rocket_image{
+        width:35%;
+    }
+    
+    #node_image{
+        width: 55%;
+        filter: brightness(0%);
+    }
+    
+    #nest_image {
+        width: 35%;
+    }
+    
+    #python_image {
+        width:32%;
+        filter: brightness(1000%);
+    }
+    
+    #django_image {
+        width:48%;
+    }
+    
+    #electron_image {
+        width:33%;
+    }
+    
+    #mongo_image{
+        width:32%;
+    }
+    
+    #flutter_image {
+        width:27%;
+        filter: brightness(0%);
+    }
+    
+    #git_image {
+        width:80%;
+        filter:brightness(0%);
+    }
+}
