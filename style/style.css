@@ -164,6 +164,7 @@ body {
     flex-wrap: wrap;
 }
 
+
 .skill {
     color: rgb(18, 18, 18);
     width: 40%;
@@ -236,6 +237,23 @@ body {
 
 #django_image {
     width:35%;
+}
+
+#electron_image {
+    width:22%;
+}
+
+#mongo_image{
+    width:22%;
+}
+
+#flutter_image {
+    width:18%;
+    filter: brightness(0%);
+}
+
+#git_image {
+    width:52%;
 }
 
 

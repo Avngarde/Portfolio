@@ -57,7 +57,24 @@ function change_skill(section) {
             `
             break;
         case "others":
-            document.getElementById("skills_holder").innerHTML = `<h1>Otheeers</h1>`;
+            document.getElementById("skills_holder").innerHTML = `
+                <div class="skill" style="background-color: rgb(43, 46, 58); color: white;">
+                    <img id="electron_image" src="images/electron.svg">
+                    <p>ElectronJS</p>
+                </div>
+                <div class="skill" style="background-color:rgb(102, 160, 55); color: #000;">
+                    <img id="mongo_image" src="images/mongodb.svg">
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill" style="background-color: #8075FF;">
+                    <img id="flutter_image" src="images/flutter.svg">
+                    <p>Flutter</p>
+                </div>
+                <div class="skill" style="background-color:rgb(209, 54, 70); color: #000;">
+                    <img id="git_image" src="images/git.svg">
+                    <p>Git</p>
+                </div>
+            `;
             break;
     }
 }
