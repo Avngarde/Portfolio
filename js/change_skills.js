@@ -29,7 +29,32 @@ function change_skill(section) {
             `;
             break;
         case "backend":
-            document.getElementById("skills_holder").innerHTML = '<h1>XD lol</h1>'
+            document.getElementById("skills_holder").innerHTML = `
+                <div class="skill" style="background-color: rgb(222, 165, 132)">
+                    <img id="rust_image" src="images/rust.svg">
+                    <p>Rust</p>
+                </div>
+                <div class="skill" style="background-color:rgb(209, 54, 70); color: #000;">
+                    <img id="rocket_image" src="images/rocket.png">
+                    <p>Rocket.rs</p>
+                </div>
+                <div class="skill" style="background-color: rgb(104, 160, 99);">
+                    <img id="node_image" src="images/node.svg">
+                    <p>NodeJS</p>
+                </div>
+                <div class="skill" style="background-color:rgb(14, 14, 16); color: white;">
+                    <img id="nest_image" src="images/nestjs.svg">
+                    <p>NestJS</p>
+                </div>
+                <div class="skill" style="background-color: rgb(36, 67, 97)">
+                    <img id="python_image" src="images/python.svg">
+                    <p>Python</p>
+                </div>
+                <div class="skill" style="background-color: rgb(9, 62, 44)">
+                    <img id="django_image" src="images/django.png">
+                    <p>Django</p>
+                </div>
+            `
             break;
         case "others":
             document.getElementById("skills_holder").innerHTML = `<h1>Otheeers</h1>`;
