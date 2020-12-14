@@ -75,8 +75,8 @@ body {
 }
 
 #about_me_text span p{
-
     text-align: left;
+    width: 90%;
 }
 
 #about_me_text span button {
@@ -100,7 +100,7 @@ body {
 }
 
 #about_me_text span h1{
-    color: #FF570A;
+    color: #D72638;
     text-align: center;
     text-decoration: underline;
 }
