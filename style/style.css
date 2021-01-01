@@ -121,7 +121,6 @@ body {
     width: 19.5%;
     height: 100%;
     margin-left: 1%;
-    margin-bottom: 5%;
 }
 
 .background:nth-child(3){
@@ -159,22 +158,18 @@ body {
     margin-right: 3%;
     margin-bottom: 1%;
     padding: 2%;
-    border-bottom-style: none;
-    border-radius: 17px;
+    border-radius: 10px;
     transition: all 200ms ease-in-out 0s;
     text-decoration: none;
-    user-select: none;
-    font-family: Consolas;
+    font-family: 'Poppins', sans-serif;
     font-size: 2vh;
-    -webkit-box-align: center;
+    font-weight: bold;
     align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .skill:hover{
-    padding:4%;
+    padding:3%;
 }
 
 
@@ -348,7 +343,7 @@ body {
 }
 
 .menu_button:hover{
-    background-color: #420039;
+    background-color:#D72638;
     color: white;
     cursor: pointer;
 }
@@ -361,6 +356,7 @@ body {
 .menu_button:nth-child(3){
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    border-right: none;
 }
 
 
