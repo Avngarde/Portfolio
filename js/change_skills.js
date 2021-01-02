@@ -30,13 +30,9 @@ function change_skill(section) {
             break;
         case "backend":
             document.getElementById("skills_holder").innerHTML = `
-                <div class="skill" style="background-color: rgb(222, 165, 132)">
-                    <img id="rust_image" src="images/rust.svg">
-                    <p>Rust</p>
-                </div>
-                <div class="skill" style="background-color:rgb(209, 54, 70); color: #000;">
-                    <img id="rocket_image" src="images/rocket.png">
-                    <p>Rocket.rs</p>
+                <div class="skill" style="background-color: #7fd5ea">
+                    <img id="go_image" src="images/Goblack.svg">
+                    <p>Golang</p>
                 </div>
                 <div class="skill" style="background-color: rgb(104, 160, 99);">
                     <img id="node_image" src="images/node.svg">
@@ -45,6 +41,10 @@ function change_skill(section) {
                 <div class="skill" style="background-color:rgb(14, 14, 16); color: white;">
                     <img id="nest_image" src="images/nestjs.svg">
                     <p>NestJS</p>
+                </div>
+                <div class="skill" style="background-color: rgb(238, 238, 238);">
+                    <img id="express_image" src="images/expressjs.svg">
+                    <p>ExpressJS</p>
                 </div>
                 <div class="skill" style="background-color: rgb(36, 67, 97); color: #fff;">
                     <img id="python_image" src="images/python.svg">
