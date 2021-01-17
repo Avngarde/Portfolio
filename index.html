@@ -21,18 +21,18 @@
             <svg width="100%" height="15%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path id="wave_background" d=""/></svg>
             <div id="aboutme">
                 <img src="images/Logoł.svg" width="100">
-                <h1>Kamil Paczkowski <br><span style="color: #D72638;">Full Stack Developer</span></h1>
+                <h1>Kamil Paczkowski <br><span style="color: #FF570A;">Full Stack Developer</span></h1>
             </div>
         </div>
 
         <div class="background" id="second_background">
-            <div class="background_header">About&#160;<span id="me">me</span></div>
+            <div class="background_header" id="first_header">About&#160;<span id="me">me</span></div>
             <div id="about_me_text">
+                <img src="images/undraw_web_developer_p3e5.svg">
                 <span>
                     <p><br> I began to learn coding at age of 11 when i wrote my first simple codes in C++. Later by the age of 16 I started to learn Python in which i started to write much more advanced software. <br> Right now im programming mostly in TypeScript, Go and Flutter, specializing in both web and mobile apps. Im maintaining some open source projects on my GitHub, check them out! <br><br> In my free time i love listening to music, especially on my vinyl collection, play video games or ride a bike :)<br></p> 
                     <a href="https://github.com/Avngarde"><button>My GitHub</button></a>
                 </span>
-                <img src="images/undraw_code.svg">
             </div>
         </div>
 
@@ -56,11 +56,28 @@
             <div class="background_header">Projects</div>
             <div id="projects_holder">
                 <div class="project">
-                    <div class="logo_holder">licznikapostazji.pl</div>
-                    <div class="project_name">Licznik Apostazji</div>
-                    <div class="project_description">Website made for Wiosna political party</div>
+                    <a href="http://licznikapostazji.pl">
+                        <div class="logo_holder">licznikapostazji.pl</div>
+                        <div class="project_name">Licznik Apostazji</div>
+                        <div class="project_description">Website made for Wiosna political party</div>
+                    </a>
                 </div>
-            </div>
+                <div class="project">
+                    <a href="https://github.com/Avngarde/NewYorkTimesScraper">
+                        <div class="logo_holder">NewYorkTimesScraper</div>
+                        <div class="project_name">NewYorkTimesScraper</div>
+                        <div class="project_description">Scraper of New York Times made in Java as a school project</div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/Avngarde/LinkPlayer">
+                        <div class="logo_holder">LinkPlayer</div>
+                        <div class="project_name">LinkPlayer</div>
+                        <div class="project_description">Cross platform application letting us download and listen to music from Youtube and Soundcloud</div>
+                    </a>
+                </div>
+        </div>
+            
         </div>
     </body>
 
@@ -75,9 +92,9 @@
     <script>
         var myWave = wavify( document.querySelector('#wave_background'), {
             height:20,
-            bones: 4,
+            bones: 8,
             amplitude: 50,
-            color: '#12355B',
+            color: '#FFFFFC',
             speed: 0.25
         })
     </script>
