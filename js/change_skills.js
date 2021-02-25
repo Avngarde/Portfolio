@@ -38,10 +38,6 @@ function change_skill(section) {
                     <img id="node_image" src="images/node.svg">
                     <p>NodeJS</p>
                 </div>
-                <div class="skill" style="background-color:rgb(14, 14, 16); color: white;">
-                    <img id="nest_image" src="images/nestjs.svg">
-                    <p>NestJS</p>
-                </div>
                 <div class="skill" style="background-color: rgb(238, 238, 238);">
                     <img id="express_image" src="images/expressjs.svg">
                     <p>ExpressJS</p>
@@ -49,10 +45,6 @@ function change_skill(section) {
                 <div class="skill" style="background-color: rgb(36, 67, 97); color: #fff;">
                     <img id="python_image" src="images/python.svg">
                     <p>Python</p>
-                </div>
-                <div class="skill" style="background-color: rgb(9, 62, 44); color: #fff;">
-                    <img id="django_image" src="images/django.png">
-                    <p>Django</p>
                 </div>
             `
             break;
@@ -66,9 +58,9 @@ function change_skill(section) {
                     <img id="mongo_image" src="images/mongodb.svg">
                     <p>MongoDB</p>
                 </div>
-                <div class="skill" style="background-color: #8075FF;">
-                    <img id="flutter_image" src="images/flutter.svg">
-                    <p>Flutter</p>
+                <div class="skill" style="background-color: rgb(97, 218, 251)">
+                    <img id="react_image" src="images/react.svg">
+                    <p>React Native</p>
                 </div>
                 <div class="skill" style="background-color:rgb(209, 54, 70); color: #000;">
                     <img id="git_image" src="images/git.svg">
