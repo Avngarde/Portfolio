@@ -1,67 +1,100 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    margin: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    padding: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 section {
-    background-color: rgb(20, 20, 20);
-    width: 100%;
-    height: 100vh;
-    border-bottom: 0.5px solid white;
+  background-color: #000000;
+  width: 100%;
+  height: 100vh;
 }
 
 #name {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 #first {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-size: 10vh;
-    font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+#second {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  align-items: center;
+}
+
+#my_photo_frame {
+  width: 30%;
+  height: 85%;
+  background-image: url(../images/my_photo.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+#long_description {
+  width: 60%;
+  height: 50%;
+  margin-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 4vh;
+  border: 2px solid #ecd444;
+  padding: 2%;
 }
 
 #first div {
-    width: 99%;
-    text-align: center;
-    padding-top: 1%;
+  width: 99%;
+  text-align: center;
+  padding-top: 1%;
 }
 
 #see_more_button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
 }
 
 #first a {
-    font-size: 2.5vh;
-    background-color: #3D087B;
-    padding: 0.5%;
-    padding-left: 1%;
-    padding-right: 1%;
-    border-radius: 5px;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
+  font-size: 2.5vh;
+  background-color: #6e2594;
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 5px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
 #surname {
-    padding: 0.2%;
-    border-radius: 20px;
-    border: 3px solid #FFC93C;
+  padding: 0.2%;
+  border-radius: 20px;
+  border: 3px solid #808080;
 }
 
 #short_description {
-    margin-top: 1%;
-    font-size: 4vh;
+  margin-top: 1%;
+  font-size: 4vh;
 }
