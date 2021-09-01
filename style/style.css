@@ -143,6 +143,20 @@ section {
   background-repeat: no-repeat;
 }
 
+#ts {
+    background-image: url(../images/typescript.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#node {
+    background-image: url(../images/node.svg);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #react {
   background-image: url(../images/react.svg);
   background-size: 60%;
