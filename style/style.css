@@ -25,6 +25,17 @@ section {
   font-weight: 500;
 }
 
+#welcoming_holder {
+  color: white;
+  width: 60%;
+  padding: 1%;
+  backdrop-filter: blur(8px) saturate(180%);
+  -webkit-backdrop-filter: blur(8px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.82);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
 #first {
   display: flex;
   flex-direction: column;
@@ -33,6 +44,9 @@ section {
   align-items: center;
   font-size: 10vh;
   font-family: "Montserrat", sans-serif;
+  background-image: url("../images/wallpaper1.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #second {
@@ -60,12 +74,11 @@ section {
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 4vh;
-  border: 2px solid #ecd444;
+  border: 3px solid #003e1f;
   padding: 2%;
 }
 
 #first div {
-  width: 99%;
   text-align: center;
   padding-top: 1%;
 }
@@ -79,7 +92,7 @@ section {
 
 #first a {
   font-size: 2.5vh;
-  background-color: #6e2594;
+  background-color: #0c6291;
   padding: 0.5%;
   padding-left: 1%;
   padding-right: 1%;
@@ -90,8 +103,8 @@ section {
 
 #surname {
   padding: 0.2%;
-  border-radius: 20px;
-  border: 3px solid #808080;
+  border-radius: 0px;
+  border: 3px solid #a63446;
 }
 
 #short_description {
@@ -120,6 +133,14 @@ section {
   margin-right: 2%;
   width: 15%;
   height: 80%;
+  transition: 0.5s;
+}
+
+.skill:hover {
+  border: 2px solid #0C6291;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 #python {
@@ -144,17 +165,17 @@ section {
 }
 
 #ts {
-    background-image: url(../images/typescript.svg);
-    background-size: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url(../images/typescript.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #node {
-    background-image: url(../images/node.svg);
-    background-size: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url(../images/node.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #react {
@@ -194,6 +215,13 @@ section {
 
 #mongo {
   background-image: url(../images/mongodb.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#git {
+  background-image: url(../images/git.svg);
   background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
