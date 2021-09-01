@@ -14,6 +14,14 @@ section {
     background-color: rgb(20, 20, 20);
     width: 100%;
     height: 100vh;
+    border-bottom: 0.5px solid white;
+}
+
+#name {
+    font-weight: 500;
+}
+
+#first {
     display: flex;
     flex-direction: column;
     color: white;
@@ -21,10 +29,6 @@ section {
     align-items: center;
     font-size: 10vh;
     font-family: 'Montserrat', sans-serif;
-}
-
-#name {
-    font-weight: 500;
 }
 
 #first div {
