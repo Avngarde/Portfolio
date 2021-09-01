@@ -98,3 +98,89 @@ section {
   margin-top: 1%;
   font-size: 4vh;
 }
+
+#third {
+  display: flex;
+  flex-direction: column;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill_row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill {
+  border: 2px solid white;
+  margin-right: 2%;
+  width: 15%;
+  height: 80%;
+}
+
+#python {
+  background-image: url(../images/python.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#go {
+  background-image: url(../images/Goblack.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#js {
+  background-image: url(../images/javascript.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#react {
+  background-image: url(../images/react.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#nest {
+  background-image: url(../images/nestjs.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#express {
+  background-image: url(../images/expressjs.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#flutter {
+  background-image: url(../images/flutter.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#electron {
+  background-image: url(../images/electron.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#mongo {
+  background-image: url(../images/mongodb.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
